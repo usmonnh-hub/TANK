@@ -19,6 +19,7 @@ body{
 }
 .header_text{
   width: 90%;
+  margin: auto;
 }
 .tample1{
   display: flex;
@@ -26,7 +27,7 @@ body{
   padding-bottom: 5px;
   border-bottom: 1px solid #939697;
   align-items: center;
-
+  
 }
 .location{
   display: flex;
@@ -136,7 +137,7 @@ body{
 }
 .section3{
   background-color: #1C2121; 
-
+  
 }
 .sec3_container{
   width: 80%;
@@ -234,7 +235,19 @@ body{
   border-bottom: 1px solid #939697;
   margin-bottom: 50px;
 }
-
+.headerr_text{
+  width: 90%;
+  margin: auto;
+  margin-top: 130px;
+}
+.fds{
+  color: #fff;
+  font-weight: 300;
+  margin-left: 80px;
+  margin-top: 70px;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
 
 
 
@@ -243,6 +256,13 @@ body{
 
 
 @media (max-width: 610px) {
+  .fds{
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .headerr_text{
+    display: none;
+  }
   .section7_text{
     width: 90%;
   }
