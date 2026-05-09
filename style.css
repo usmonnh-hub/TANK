@@ -96,11 +96,76 @@
 .section1_text_mob{
   display: none;
 }
+.section2{
+  background-color: #181818;
+  padding-bottom: 50px;
+}
+.section2_srok{
+  background-color: #252C2C;
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+.blocks{
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.sec2_texts{
+  margin: auto;
+  width: 80%;
+  color: #fff;
+  text-align: center;
+}
+.cars{
+  display: flex;
+  gap: 50px;
+  width: 35%;
+  margin: auto;
+}
+
+
 
 
 
 
 @media (max-width: 610px) {
+  .sec2_texts{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+
+  }
+  .cars{
+    gap: 10px;
+    width: 330px;
+    text-align: start;
+    margin: 0;
+  }
+  .w{
+    margin: auto;
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .blocks{
+    flex-direction: column;
+    width: 100%;
+  }
+  .sa{
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .section2_srok{
+    flex-direction: column;
+  }
   .sec1_button{
     background-color: #FF9549;
     padding: 16px 97px;
