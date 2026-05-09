@@ -205,6 +205,21 @@
   margin-bottom: 10px;
   display: flex;
 }
+.section6{
+  background-image: url(imges/section6.png);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section6_text{
+  width: 30%;
+  color: #fff;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+
 
 
 
@@ -212,7 +227,21 @@
 
 
 @media (max-width: 610px) {
-
+  .section6_text .header_button{
+    width: 100px;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
+  .saw{
+    width: 70px;
+  }
+  .section6_text{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
   .tank300{
     width: 300px;
   }
