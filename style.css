@@ -132,7 +132,8 @@
   margin: auto;
 }
 .section3{
-  background-color: #1C2121;
+  background-color: #1C2121; 
+
 }
 .sec3_container{
   width: 80%;
@@ -165,6 +166,10 @@
 
 
 @media (max-width: 610px) {
+  .sec3_imgg{
+    width: 400px;
+    margin: auto;
+  }
   .q{
     margin-bottom: 20px;
     width: 100%;
@@ -183,6 +188,7 @@
   }
   .sec3_cnt_text{
     margin: auto;
+    margin-bottom: 50px;
   }
   .sec3_img{
     width: 360px;
